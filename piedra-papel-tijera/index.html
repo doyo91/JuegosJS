@@ -1,0 +1,51 @@
+   <!DOCTYPE html>
+   <html lang="en">
+   <head>
+       <meta charset="UTF-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+       <!-- CSS -->
+        <link rel="stylesheet" href="css/style.css">
+
+       <title>Piedra, Papel o tijera</title>
+   </head>
+   <body>
+       <section class="game">
+           <div class="score">
+               <div class="player-score">
+                   <h2>Jugador</h2>
+                   <p>0</p>
+               </div>
+               <div class="computer-score">
+                   <h2>CPU</h2>
+                   <p>0</p>
+               </div>
+           </div>
+       
+            <div class="intro">
+                <h1>Piedra, Papel o tijera</h1>
+                <div class="picture">
+                    <img src="img/rock.png" alt="piedra">
+                    <img src="img/scissors.png" alt="Tijeras">
+                </div>
+                <button>Juguemos</button>
+            </div>
+
+            <div class="match fadeOut">
+                <h2 class="winner">Choose an option</h2>
+                <div class="hands">
+                    <img class="player-hand" src="img/rock.png" alt="">
+                    <img class="computer-hand" src="img/rock.png" alt="">
+                </div>
+                <div class="options">
+                    <button class="rock" value="rock">Piedra</button>
+                    <button class="paper" value="paper">Papel</button>
+                    <button class="scissors" value="scissors">Tijera</button>
+                </div>
+            </div>
+        </section>
+
+        <script src="js/app.js"></script>
+   </body>
+   </html>
