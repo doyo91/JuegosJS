@@ -129,4 +129,23 @@
   .notification-container.show {
     transform: translateY(-50px);
   }
+
+  .btn-back {
+    
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    
+  }
+
+  .btn-back__link {
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+  }
   
