@@ -42,13 +42,12 @@ body {
   margin-right: auto;
   height: 100%;
   display: flex;
-  justify-content: space-evenly;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
 }
 
-.transition {
-  transition: 0.3s cubic-bezier(0.3, 0, 0, 1.3);
-}
+
 
 .card {
   background-color: #fff;
@@ -58,18 +57,17 @@ body {
   overflow: hidden;
   position: relative;
   border-radius: 5px;
+  margin-bottom: 5rem;
 }
 
 .card:hover {
   box-shadow: 0px 30px 30px rgba(0, 0, 0, 0.2);
-  height: 530px;
-  width: 330px;
 }
 
+.card
 .card__img {
   height: 200px;
   width: 100%;
-  position: absolute;
 }
 
 .card__img--1 {
@@ -84,6 +82,7 @@ body {
   background: url(./img/piedra-papel-tijera.JPG) no-repeat;
   background-size: cover;
 }
+
 
 .card__title {
   text-align: center;
@@ -118,4 +117,12 @@ body {
   font-size: 17px;
   text-decoration: none;
   font-weight: bold;
+}
+
+@media (min-width: 1200px) {
+    .container-cards {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+      }
 }
