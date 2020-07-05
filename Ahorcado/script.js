@@ -7,7 +7,7 @@ const finalMessage = document.getElementById('final-message');
 
 const figureParts = document.querySelectorAll('.figure-part');
 
-const words = ['application', 'programming', 'interface', 'wizard'];
+const words = ['programa', 'ordenador', 'interfaz', 'internet'];
 
 // Se elige una palabra al azar
 let selectedWord = words[Math.floor(Math.random() * words.length)];
