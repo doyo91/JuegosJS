@@ -19,12 +19,17 @@
     margin: 20px 0 0;
   }
   
+  .headings {
+    padding: 1rem;
+    text-align: center;
+  }
+
   .game-container {
-    padding: 20px 30px;
+    padding: 1rem;
     position: relative;
     margin: auto;
     height: 350px;
-    width: 450px;
+    width: 300px;
   }
   
   .figure-container {
@@ -133,8 +138,7 @@
   .btn-back {
     
     position: absolute;
-    top: 20px;
-    right: 20px;
+    bottom: 20px;
     
   }
 
@@ -148,4 +152,15 @@
     font-size: 1rem;
     font-weight: bold;
   }
+
+@media (min-width: 600px) {
+  .game-container {
+    width: 450px;
+  }
+
+  .btn-back {
+    top: 20px;
+    right: 20px;
+  }
+}
   
